@@ -1,0 +1,11 @@
+Ứng dụng máy tính bỏ túi.
+- Thực hiện các phép tính cơ bản
++ cộng
++ Trừ
++ Nhân
++ Chia
++ Phần trăm
++ Bình phương
++ Lũy thừa
++ Căn
++ Có nút reset 
