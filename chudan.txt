@@ -1,5 +1,7 @@
 Ứng dụng máy tính bỏ túi.
 - Thực hiện các phép tính cơ bản
++ Có các nút từ 0 đến 9, dấu "." ;
++ Có các nút chức năng (+, _, *, /, sqrt, %, =, AC, )
 + cộng
 + Trừ
 + Nhân
