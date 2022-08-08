@@ -14,7 +14,7 @@
             <td colspan="5"><input id = "displayBox" type="text"  value ="0"></td>
         </tr>
         <tr>
-            <td><input   class="button" type="button" id="" value="n!" onclick="if(checkNum(form.displayBox.value)) {giaiThua(this.form)}"></td>
+            <td><input   class="button" type="button" id="" value="n!" onclick="if(checkNum(form.displayBox.value)) {factorial(this.form)}"></td>
             <td><input  class="button" type="button" value="(" onclick="addChar(this.form.displayBox, '(')"></td>
             <td><input  class="button" type="button" value=")" onclick="addChar(this.form.displayBox, ')')"></td>
             <td><input  class="button" type="button" value="%" onclick="percent(this.form.displayBox)"></td>
@@ -22,28 +22,28 @@
         </tr>
         <tr>
             <td><input  class="button" type="button" value="&#8730;n" onclick="if(checkNum(this.form.displayBox)) {sqrt(this.form)}"></td>
-            <td><input  class="buttonSo" type="button" value="7" onclick="addChar(this.form.displayBox, '7')"></td>
-            <td><input  class="buttonSo" type="button" value="8" onclick="addChar(this.form.displayBox, '8')"></td>
-            <td><input  class="buttonSo" type="button" value="9" onclick="addChar(this.form.displayBox, '9')"></td>
+            <td><input  class="buttonNum" type="button" value="7" onclick="addChar(this.form.displayBox, '7')"></td>
+            <td><input  class="buttonNum" type="button" value="8" onclick="addChar(this.form.displayBox, '8')"></td>
+            <td><input  class="buttonNum" type="button" value="9" onclick="addChar(this.form.displayBox, '9')"></td>
             <td><input  class="button" type="button" value = "/" onclick="addChar(this.form.displayBox,'/')"></td>
         </tr>
         <tr>
             <td><input  class="button" type="button" value = "n&#178;" onclick="if(checkNum(this.form.displayBox)) {square(this.form)}"></td>
-            <td><input  class="buttonSo" type="button" value="4" onclick="addChar(this.form.displayBox, '4')"></td>
-            <td><input  class="buttonSo" type="button" value="5" onclick="addChar(this.form.displayBox, '5')"></td>
-            <td><input  class="buttonSo" type="button" value="6" onclick="addChar(this.form.displayBox, '6')"></td>
+            <td><input  class="buttonNum" type="button" value="4" onclick="addChar(this.form.displayBox, '4')"></td>
+            <td><input  class="buttonNum" type="button" value="5" onclick="addChar(this.form.displayBox, '5')"></td>
+            <td><input  class="buttonNum" type="button" value="6" onclick="addChar(this.form.displayBox, '6')"></td>
             <td><input  class="button" type="button" value = "*" onclick="addChar(this.form.displayBox, '*')"></td>
         </tr>
         <tr>
             <td><input  class="button" type="button" value = "x^y" onclick="addChar(this.form.displayBox, '^')"></td>
-            <td><input  class="buttonSo" type="button" value="1" onclick="addChar(this.form.displayBox, '1')"></td>
-            <td><input  class="buttonSo" type="button" value="2" onclick="addChar(this.form.displayBox, '2')"></td>
-            <td><input  class="buttonSo" type="button" value="3" onclick="addChar(this.form.displayBox, '3')"></td>
+            <td><input  class="buttonNum" type="button" value="1" onclick="addChar(this.form.displayBox, '1')"></td>
+            <td><input  class="buttonNum" type="button" value="2" onclick="addChar(this.form.displayBox, '2')"></td>
+            <td><input  class="buttonNum" type="button" value="3" onclick="addChar(this.form.displayBox, '3')"></td>
             <td><input  class="button" type="button" value = "-" onclick="addChar(this.form.displayBox, '-')"></td>
         </tr>
         <tr>
             <td><input  class="button" type="button" value = "pi" onclick="addChar(this.form.displayBox, '3.14159265359')"></td>
-            <td><input  class="buttonSo" type="button" value="0" onclick="addChar(this.form.displayBox, '0')"></td>
+            <td><input  class="buttonNum" type="button" value="0" onclick="addChar(this.form.displayBox, '0')"></td>
             <td><input  class="button" type="button" value="." onclick="addChar(this.form.displayBox, '.')"></td>
             <td><input  class="button" type="button" value="=" onclick="if(checkNum(this.form.displayBox)) {calculate(this.form)} "></td>
             <td><input  class="button" type="button" value = "+" onclick="addChar(this.form.displayBox, '+')"></td>
