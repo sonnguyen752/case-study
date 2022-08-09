@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family=Orbittron&display=swap');
+/* @import url('https://fonts.googleapis.com/css2? family=Orbittron&display=swap'); */
 .calculator {
     padding: 10px;
     border-radius: 1em;
@@ -6,17 +6,19 @@
     width: 400px;
     margin: auto;
     background-color: #e5eeee;
-    box-shadow: rgba(rgb(223, 190, 190), 0px 10px 20px, rgba(0, 0, 0.23) 0px 6px 6px);
+ 
 }
 .displayBox {
     font-family: 'Courier New', Courier, monospace;
-    text-align: leftgit;
+    font-size: 25px;
+    font-weight: bold;
+    text-align:right;
     background-color: white;
     border: solid black 0.5px;
     color: black;
     border-radius: 5px;
-    width: 80px;
-    height: 20px;
+    width: 98%;
+    height: 60%;
 }
 .button {
     font-family: 'Arial Narrow', Arial, sans-serif;
@@ -28,7 +30,7 @@
     height: 70%;
     outline: none;
 }
-.buttonSo {
+.buttonNum {
     font-family: 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(209, 118, 14);
     border: solid rgb(12, 1, 1) 0.5px;
@@ -38,9 +40,9 @@
     height: 70%;
     outline: none;
 }
-/* .button:active {
+ .button:active {
     background: #d14a4a;
-    -webkit-box-shadow: inset 0px 0px 5px rgb(156, 142, 142);
-    -moz-box-shadow: inset 0px 0px 5px rgb(156, 142, 142);
-    box-shadow: inset 0px 0px 5px rgb(156, 142, 142); */
-/* } */
+}
+.buttonNum:active {
+    background:white ;
+} 
